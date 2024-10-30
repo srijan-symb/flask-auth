@@ -4,8 +4,8 @@ from flask import Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required, create_access_token, get_jwt_identity
 from werkzeug.security import generate_password_hash, check_password_hash
 
-from models import db, User, Contact
-from helpers import validate_signup_data, validate_login_data, validate_contact_data
+from .models import db, User, Contact
+from .helpers import validate_signup_data, validate_login_data, validate_contact_data
 
 main_bp = Blueprint("main_bp", __name__)
 
