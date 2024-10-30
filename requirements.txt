@@ -1,0 +1,8 @@
+Flask-SQLAlchemy
+SQLAlchemy
+Flask-JWT-Extended
+Flask-Migrate
+bcrypt
+Flask
+gunicorn
+Werkzeug
