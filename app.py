@@ -4,10 +4,10 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_jwt_extended import JWTManager
 
-from .routes import main_bp
+from routes import main_bp
 
-from .config import Config
-from .models import db, User, Contact
+from config import Config
+from models import db, User, Contact
 
 migrate = Migrate()
 
